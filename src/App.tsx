@@ -13,7 +13,7 @@ const App: React.FC = () => {
       //we will first check if we have any todo
       setTodos([...todos, { id: Date.now(), todo, isDone: false }]);
      
-      // setTodos("");
+     
     }
   };
 
